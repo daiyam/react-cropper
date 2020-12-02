@@ -1,5 +1,5 @@
 import React from 'react';
-import Cropper from 'cropperjs';
+import Cropper from '@daiyam/cropperjs';
 interface ReactCropperProps
     extends Cropper.Options,
         Omit<React.HTMLProps<HTMLImageElement>, 'data' | 'ref' | 'crossOrigin'> {

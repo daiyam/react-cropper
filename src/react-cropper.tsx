@@ -1,5 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
-import Cropper from 'cropperjs';
+import Cropper from '@daiyam/cropperjs';
 
 type ReactCropperRef =
     | ((instance: HTMLImageElement | null) => void)
